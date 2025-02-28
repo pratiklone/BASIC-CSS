@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .aniket {
+        background-color: coral;
+      }
+      #pratik {
+        color: yellowgreen;
+      }
+      #nilesh {
+        height: 50%;
+        width: 50%;
+        background-color: cornflowerblue;
+      }
+      .ani {
+        height: 100px;
+        width: 100px;
+        color: gold;
+        background-color: black;
+      }
+      .pra {
+        height: 10vh;
+        width: 10vw;
+        background-color: rosybrown;
+      }
+
+      .rem-text {
+        height: 30%;
+        background-color: yellow;
+        width: 30%;
+      }
+      p {
+        font-size: 2rem;
+      }
+      p:nth-child(even) {
+        color: blue;
+      } 
+      .raj p:nth-child(odd){
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>class selector</h1>
+    <h1 class="aniket">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, recusandae.
+      Quia, deleniti.
+    </h1>
+    <h1 class="aniket">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, recusandae.
+      Quia, deleniti.
+    </h1>
+    <h1 class="aniket">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, recusandae.
+      Quia, deleniti.
+    </h1>
+    <br />
+    <hr />
+
+    <h1>id selector</h1>
+    <h1 id="pratik">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, recusandae.
+      Quia, deleniti.
+    </h1>
+    <br />
+    <hr />
+
+    
+    
+   
+
+    <h1>height and widtdh percentage</h1>
+    <p id="nilesh">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, enim!
+      Temporibus, aperiam. Eaque eius suscipit eos deleniti atque, expedita
+      alias veritatis, tempore cum non voluptates tenetur iure, eligendi
+      consequuntur. Minima beatae natus nostrum quae fugiat nihil impedit fugit!
+      Error eos impedit voluptas repellendus sapiente ex provident perferendis
+      similique, modi commodi.
+    </p>
+
+    <br />
+    <hr />
+    <h1>height width with pixel</h1>
+    <h3 class="ani">aniket</h3>
+    <h3 class="ani">pratik</h3>
+    <h3 class="ani">nilesh</h3>
+    <br />
+    <hr />
+
+    <h1>vh and vw</h1>
+    <h3 class="pra">aniket</h3>
+    <h3 class="pra">pratik</h3>
+    <h3 class="pra">nilesh</h3>
+    <br />
+    <hr />
+
+    <h1>em and rem</h1>
+
+    <div class="rem-text">
+      <p class="nil">aniket</p>
+      <p class="nil">pratik</p>
+      <p class="nil">nilesh</p>
+      <span>nilesh</span> <span>aniket</span>
+
+    </div>
+
+    <br><hr>
+      
+      <h1>pseudo even</h1>
+      
+      
+     <div>
+        <p>This is some text.</p>
+        <p>This is some text.</p>
+        <p>This is some text.</p>
+        <p>This is some text.</p>
+      </div>
+      <br><hr>
+
+      <h1>pseudo odd</h1>
+      
+      
+      <div class="raj">
+         <p>This is some text.</p>
+         <p>This is some text.</p>
+         <p>This is some text.</p>
+         <p>This is some text.</p>
+       </div>
+    </div>
+  </body>
+</html>
